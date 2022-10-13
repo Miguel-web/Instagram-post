@@ -6,21 +6,39 @@ body {
 .post {
     background: white;
     width: 400px;
-    height: 600px;
+    height: 570px;
 }
-.fa-brands {
-    margin: 5px;
-    margin-bottom: 0px;
-    font-size: 25px;
-    float: left;
-}
-.fa-brands, h2 {
+#content1 {
+    margin: 0px;
     display: flex;
 }
+.grupo1 {
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Noto Sans Mono', monospace;
+    margin-right: 5px;
+}
+.subgrupo1 {
+    margin-left: 1px;
+    float: right;
+}
+.fa-brands {
+    margin-top: 11px;
+    margin-right: 5px;
+    margin-left: 20px;
+    font-size: 30px;
+    align-self: center;
+}
+h2, h1 {
+    display: block;
+    margin: 0;
+}
 h2 {
-    font-size: 20px;
-    margin-top: 5px;
-    margin-bottom: 0;
+    font-size: 14px;
+    margin-top: 7px;
+}
+h1 {
+    font-size: 13px;
+    margin: 0;
 }
 p {
     font-size: 15px;
@@ -29,21 +47,12 @@ p {
 }
 .fa-solid {
     font-size: 25px;
-}
-.grupo1 {
-    font-family: 'Noto Sans Mono', monospace;
-    font-family: 'Noto Sans Mono', monospace;
-    margin: 0;
+    margin-left: 240px;
 }
 .grupo2 {
     margin: 10px;
     display: flex;
     align-self: center;
-}
-#content1 {
-    margin: 0px;
-    display: flex;
-    justify-content: space-between;
 }
 #content2 {
     display: flex;
@@ -53,7 +62,6 @@ img {
     margin: 5px;
     overflow: hidden;
 }
-/*#content3 {}*/
 #icons {
     margin: 10px;
     display: flex;
